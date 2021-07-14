@@ -12,6 +12,10 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		63FCABD6575F4B9EB3D6EA99 /* DancingScript-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 963C75617A374421B248C8B4 /* DancingScript-VariableFont_wght.ttf */; };
+		AB2C94BCFB1B4657B8FCD646 /* Festive-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 830C96047262454793196915 /* Festive-Regular.ttf */; };
+		70247D77D29A4320A21E449F /* Fuggles-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC1A8290C1D3430CADD2DFFD /* Fuggles-Regular.ttf */; };
+		E429842FCEAA468DA4653CD8 /* Yomogi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8192D4317B74E888735543F /* Yomogi-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = foodDelivery/main.m; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = foodDelivery/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		963C75617A374421B248C8B4 /* DancingScript-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "DancingScript-VariableFont_wght.ttf"; path = "../assets/fonts/DancingScript-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		830C96047262454793196915 /* Festive-Regular.ttf */ = {isa = PBXFileReference; name = "Festive-Regular.ttf"; path = "../assets/fonts/Festive-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC1A8290C1D3430CADD2DFFD /* Fuggles-Regular.ttf */ = {isa = PBXFileReference; name = "Fuggles-Regular.ttf"; path = "../assets/fonts/Fuggles-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D8192D4317B74E888735543F /* Yomogi-Regular.ttf */ = {isa = PBXFileReference; name = "Yomogi-Regular.ttf"; path = "../assets/fonts/Yomogi-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,7 @@
 				00E356EF1AD99517003FC87E /* foodDeliveryTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				08A3084F598D469CBB81EB45 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -123,6 +132,18 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		08A3084F598D469CBB81EB45 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				963C75617A374421B248C8B4 /* DancingScript-VariableFont_wght.ttf */,
+				830C96047262454793196915 /* Festive-Regular.ttf */,
+				BC1A8290C1D3430CADD2DFFD /* Fuggles-Regular.ttf */,
+				D8192D4317B74E888735543F /* Yomogi-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -214,6 +235,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				63FCABD6575F4B9EB3D6EA99 /* DancingScript-VariableFont_wght.ttf in Resources */,
+				AB2C94BCFB1B4657B8FCD646 /* Festive-Regular.ttf in Resources */,
+				70247D77D29A4320A21E449F /* Fuggles-Regular.ttf in Resources */,
+				E429842FCEAA468DA4653CD8 /* Yomogi-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
